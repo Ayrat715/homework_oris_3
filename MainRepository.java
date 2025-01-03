@@ -16,10 +16,5 @@ public class MainRepository {
         List<User> users = userRepository.findAll();
 
         users.forEach(user -> System.out.println(user.getFirstName()));
-
-
     }
-
-
-
 }
